@@ -64,7 +64,7 @@ function Homepage(props) {
                         borderThickness={7}
                         glowStrength={0.01}
                     />
-                    <footer>Copyright *Brock Hall 1998</footer>
+                    <footer><span>Copyright *Brock Hall 1998</span><span><a href="https://www.vecteezy.com/free-vector/vector">Vector Vectors by Vecteezy</a></span></footer>
                 </div>
                 <div className="right">
                     <Link to="/bios" className="bios-homepage">Bio's</Link>
