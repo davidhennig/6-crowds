@@ -1,0 +1,41 @@
+.image-merch{
+    width:30%;
+    transform: rotate(-90deg);
+}
+.h1-merch{
+    color: #FA02FF;
+}
+.h4-merch{
+    color: black;
+    margin-bottom: 0px;
+}
+.p-merch{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: medium;
+}
+.email-merch{
+    color: black;
+    margin-bottom: 80px;
+    font-size: medium;
+}
+.at{
+    color: #FA02FF;
+    margin:0px;
+    font-size: 50px;
+}
+.merch-button{
+    background-color: #FA02FF;
+    color:#01FF1A;
+    opacity: 0.5;
+    width:226px;
+    height: 51px;
+    font-size: x-large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.color-text{
+    color:red;
+}

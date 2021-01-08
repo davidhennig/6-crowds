@@ -1,0 +1,37 @@
+.rhap_container{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 25%;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #d7d6fa, #8e97f7);
+
+}
+.h1-multi{
+    color: #01FF1A;
+}
+.rhap_container svg{
+    background: linear-gradient(135deg, #ffffff, #9198e5);
+    color: #5f68d4;
+    border-radius: 100px;
+}
+.rhap_volume-indicator, .rhap_progress-indicator{
+    background: linear-gradient(135deg, #ffffff, #9198e5);
+}
+.rhap_volume-controls svg{
+    color: #5f68d4;
+}
+.rhap_progress-section{
+    font-family: fantasy;
+}
+.rhap_main-controls button{
+    height: 50px;
+    width: 50px;
+}
+.rhap_additional-controls button{
+    height: 50px;
+    width: 50px;
+}
+.rhap_volume-container button {
+    height: 50px;
+    width: 50px;
+}

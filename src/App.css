@@ -13,8 +13,10 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App {
+  background-image: url("Images/vecteezy_trendy-retro-pattern-with-tapes_365119/10.jpg");
+  background-repeat: repeat;
+  background-size: 35%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +24,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.GreyBG{
+  background-color: rgba(196, 196, 196,0.75);
+  min-height: 90vh;
+  min-width: 50vw;
+  max-width: 50vw;
 }
 
 .App-link {
