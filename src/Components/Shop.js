@@ -17,7 +17,7 @@ function Shop(props) {
                 }}>Buy Now</button>
                 <p className={`p-shop ${color}`}>Restock on demand. <br/> Ask for availability</p>
                 <p className="at">@</p> 
-                <p className="email-shop">brockhallsistahood@gmail.com</p>
+                <p className="email-shop"><a href="mailto:brockhallsistahood@gmail.com">brockhallsistahood@gmail.com</a></p>
             </div>
         </>
     )

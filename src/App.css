@@ -27,9 +27,7 @@
 }
 .GreyBG{
   background-color: rgba(196, 196, 196,0.75);
-  min-height: 90vh;
-  min-width: 50vw;
-  max-width: 50vw;
+  width: 500px;
 }
 
 .App-link {

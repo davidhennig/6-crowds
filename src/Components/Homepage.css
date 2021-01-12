@@ -3,19 +3,19 @@
     text-align: left;
     margin-left: 20px;
     margin-bottom: 0px;
-    font-size: 24px;
+    font-size: 18px;
 }
 .header-homepage{
     color: #FA02FF;
-    font-size: 96px;
-    margin: 0px;
+    font-size: 72px;
+    margin: 30px 0px;
 }
 .website-homepage{
     color:black;
     text-align: right;
     margin-right: 20px;
-    margin-bottom: 0px;
-    font-size: 24px;
+    margin-bottom: 50px;
+    font-size: 18px;
 }
 .bottom-text{
     display: flex;
@@ -23,7 +23,7 @@
 .left{
     width:30%;
     padding:10px;
-    font-size: 18px;
+    font-size: 14px;
     color:black;
     display: flex;
     flex-direction: column;
@@ -37,16 +37,16 @@
     font-family: 'Ribeye', cursive;
     background-color: #01FF1A;
     color:#FA02FF;
-    width:226px;
-    height: 51px;
-    font-size: x-large;
+    width:112px;
+    height: 40px;
+    font-size: 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 .middle{
     width: 40%;
-    font-size: 24px;
+    font-size: 18px;
     color:black;
     height: 98%;
 }
@@ -55,27 +55,28 @@
 }
 .frankie-homepage{
     font-family: 'Reenie Beanie', cursive;
-    font-size: 36px;
+    font-size: 24px;
 }
 .aggs-homepage{
     font-family: 'Rock Salt', cursive;
-    font-size: 18px;
+    font-size: 14px;
 }
 .chloet-homepage{
     font-family: 'Romanesco', cursive;
-    font-size: 24px;
+    font-size: 18px;
 }
 .sofia-homepage{
     font-family: 'Secular One', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
 }
 .lottie-homepage{
     font-family: 'Miniver', cursive;
-    font-size: 24px;
+    font-size: 18px;
 }
 .cheers-homepage{
     color: #FA02FF;
 }
+
 .right{
     width: 30%;
     display: flex;
@@ -90,25 +91,27 @@ a{
 }
 .bios-homepage{
     font-family: 'Ribeye', cursive;
-    margin-top:auto;
-    margin-left: 0px;
-    background-color: #FA02FF;
-    color:#01FF1A;
-    width:226px;
-    height: 51px;
-    font-size: x-large;
+    margin:auto;
+    background-color: #01FF1A;
+    color:#FA02FF;
+    width:112px;
+    height: 40px;
+    font-size: 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 .gallery-homepage{
     font-family: 'Ribeye', cursive;
-    margin:auto;
-    background-color: #01FF1A;
-    color:#FA02FF;
-    width:226px;
-    height: 51px;
-    font-size: x-large;
+    margin-top:auto;
+    margin-left: 0px;
+    padding: 0px 10px;
+
+    background-color: #FA02FF;
+    color:#01FF1A;
+    width:112px;
+    height: 40px;
+    font-size: 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -116,11 +119,13 @@ a{
 .multimedia-homepage{
     font-family: 'Ribeye', cursive;
     margin-bottom: auto;
+    padding: 0px 10px;
+
     background-color: #FA02FF;
     color:#01FF1A;
-    width:226px;
-    height: 51px;
-    font-size: x-large;
+    width:112px;
+    height: 40px;
+    font-size: 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;

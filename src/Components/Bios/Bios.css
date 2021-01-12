@@ -28,15 +28,18 @@
 .top-bios{
     display: flex;
     justify-content: space-evenly;
+    width:80%;
+    margin: auto;
 }
 .middle-bios{
     display: flex;
     justify-content: space-between;
-    margin:100px 50px;
+    margin:20px 10px;
 }
 .bottom-bios{
     width: 186px;
     margin: auto;
+    margin-bottom: 50px;
 }
 .image-bios{
     width: 70%;
