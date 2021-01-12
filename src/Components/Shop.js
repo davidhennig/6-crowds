@@ -2,27 +2,27 @@ import React, {useState} from 'react';
 import "./Shop.css";
 import shirt from "../Images/shirt.JPG"
 
-function Merch(props) {
+function Shop(props) {
     let [color,setColor] = useState("")
     return (
         <>
-            <div className="top-merch">
-                <h1 className="h1-merch">Shop</h1>
-                <h4 className="h4-merch">The OFFICIAL <br/> 6-Crowd T-Shirt</h4>
+            <div className="top-shop">
+                <h1 className="h1-shop">Shop</h1>
+                <h4 className="h4-shop">The OFFICIAL <br/> 6-Crowd T-Shirt</h4>
             </div>
-            <img className="image-merch" src={shirt}/>
-            <div className="bottom-merch">
-                <button className="merch-button" onClick={() => {
+            <img className="image-shop" src={shirt}/>
+            <div className="bottom-shop">
+                <button className="shop-button" onClick={() => {
                     setColor("color-text")
                 }}>Buy Now</button>
-                <p className={`p-merch ${color}`}>Restock on demand. <br/> Ask for availability</p>
+                <p className={`p-shop ${color}`}>Restock on demand. <br/> Ask for availability</p>
                 <p className="at">@</p> 
-                <p className="email-merch">brockhallsistahood@gmail.com</p>
+                <p className="email-shop">brockhallsistahood@gmail.com</p>
             </div>
         </>
     )
 }
 
 
-export default Merch
+export default Shop
 

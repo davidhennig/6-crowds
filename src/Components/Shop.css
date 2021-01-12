@@ -1,21 +1,21 @@
-.image-merch{
+.image-shop{
     width:30%;
     transform: rotate(-90deg);
 }
-.h1-merch{
+.h1-shop{
     color: #FA02FF;
 }
-.h4-merch{
+.h4-shop{
     color: black;
     margin-bottom: 0px;
 }
-.p-merch{
+.p-shop{
     color: black;
     margin-top: 20px;
     margin-bottom: 0px;
     font-size: medium;
 }
-.email-merch{
+.email-shop{
     color: black;
     margin-bottom: 80px;
     font-size: medium;
@@ -25,7 +25,7 @@
     margin:0px;
     font-size: 50px;
 }
-.merch-button{
+.shop-button{
     background-color: #FA02FF;
     color:#01FF1A;
     opacity: 0.5;
