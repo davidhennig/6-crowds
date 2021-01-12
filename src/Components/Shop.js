@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import "./Merch.css";
+import "./Shop.css";
 import shirt from "../Images/shirt.JPG"
 
 function Merch(props) {
@@ -7,7 +7,7 @@ function Merch(props) {
     return (
         <>
             <div className="top-merch">
-                <h1 className="h1-merch">Merch</h1>
+                <h1 className="h1-merch">Shop</h1>
                 <h4 className="h4-merch">The OFFICIAL <br/> 6-Crowd T-Shirt</h4>
             </div>
             <img className="image-merch" src={shirt}/>
@@ -17,7 +17,7 @@ function Merch(props) {
                 }}>Buy Now</button>
                 <p className={`p-merch ${color}`}>Restock on demand. <br/> Ask for availability</p>
                 <p className="at">@</p> 
-                <p className="email-merch">test@email.com</p>
+                <p className="email-merch">brockhallsistahood@gmail.com</p>
             </div>
         </>
     )

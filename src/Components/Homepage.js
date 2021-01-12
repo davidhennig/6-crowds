@@ -27,7 +27,7 @@ function Homepage(props) {
                         <span className="left-header-homepage">Who we are!</span><br/>
                         <span>We’re a girl group from all different parts of England, and we’re excited to bring our songs to the world. Sneak a listen to our single “Wannabe”, the new single from our debut album on the media page!</span> 
                     </p>
-                    <Link to="/merch"><button className="merch-homepage">Merch</button></Link>
+                    <Link to="/shop"><button className="shop-homepage">Shop</button></Link>
                 </div>
                 <div className="middle">
                     <div className="names-homepage">
@@ -35,7 +35,7 @@ function Homepage(props) {
                             <span className="frankie-homepage">Frankie </span>
                             <span className="aggs-homepage">Aggs </span>
                             <span className="chloet-homepage">Chloe T </span>
-                            <span className="sophia-homepage">Sophia </span>
+                            <span className="sofia-homepage">Sofia </span>
                             <span>and </span>
                             <span className="lottie-homepage">Lottie </span>
                             <span>are glad to see you here!</span> 
