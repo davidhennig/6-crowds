@@ -13,15 +13,15 @@ function Bios(props) {
             <h1 className="bio-header">Bio's Page</h1>
             <div className="headshots">
                 <div className="top-bios">
-                    <Link to="/lottie"><img className="image-bios" src={Lottie}/></Link>
-                    <Link to="/chloet"><img className="image-bios" src={ChloeT}/></Link>
+                    <Link to="/lottie"><img className="image-bios" src={Lottie} alt="Lottie's headshot"/></Link>
+                    <Link to="/chloet"><img className="image-bios" src={ChloeT} alt="Chloe T's headshot"/></Link>
                 </div>
                 <div className="middle-bios">
-                    <Link to="/sofia"><img className="image-bios" src={Sofia}/></Link>
-                    <Link to="/aggs"><img className="image-bios" src={Aggs}/></Link>
+                    <Link to="/sofia"><img className="image-bios" src={Sofia} alt="Sofia's headshot"/></Link>
+                    <Link to="/aggs"><img className="image-bios" src={Aggs} alt="Aggs' headshot"/></Link>
                 </div>
                 <div className="bottom-bios">
-                    <Link to="/frankie"><img className="image-bios" src={Frankie}/></Link>
+                    <Link to="/frankie"><img className="image-bios" src={Frankie} alt="Frankie's headshot"/></Link>
                 </div>
             </div>
         </>

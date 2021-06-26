@@ -19,7 +19,7 @@ function Homepage(props) {
             <div className="top-text">
                 <p className="welcome-homepage">Welcome to the offical</p>
                 <h1 className="header-homepage">6-Crowd</h1>
-                <p className="website-homepage">website!</p>
+                <p className="website-homepage">website!<a href="https://www.youtube.com/watch?v=9yGXktR43z8&t=15s">Check out our new trailer HERE!</a></p>
             </div>
             <div className="bottom-text">
                 <div className="left">
@@ -41,7 +41,7 @@ function Homepage(props) {
                             <span>are glad to see you here!</span> 
                         </p>
                     </div>
-                    <img src={albumCover}/>
+                    <img src={albumCover} alt="The offical 6-crowd album cover"/>
                     <p>
                         <span className="cheers-homepage">Cheers</span>
                         , and 

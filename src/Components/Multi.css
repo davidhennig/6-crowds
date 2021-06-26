@@ -36,3 +36,9 @@
     height: 50px;
     width: 50px;
 }
+.demo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-decoration: none;
+    justify-content: left;
+}

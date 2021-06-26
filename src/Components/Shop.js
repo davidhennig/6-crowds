@@ -10,7 +10,7 @@ function Shop(props) {
                 <h1 className="h1-shop">Shop</h1>
                 <h4 className="h4-shop">The OFFICIAL <br/> 6-Crowd T-Shirt</h4>
             </div>
-            <img className="image-shop" src={shirt}/>
+            <img className="image-shop" src={shirt} alt="The offical 6-crowd T-shirt"/>
             <div className="bottom-shop">
                 <button className="shop-button" onClick={() => {
                     setColor("color-text")

@@ -5,7 +5,7 @@ function lottie(props) {
     return (
         <>
            <h1 className="lottie-header">Lottie</h1> 
-           <img src={Lottie}/>
+           <img src={Lottie} alt="Lottie's headshot"/>
         </>
     )
 }

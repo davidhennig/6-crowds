@@ -5,7 +5,7 @@ function sofia(props) {
     return (
         <div>
             <h1 className="sofia-header">Sofia</h1> 
-           <img src={Sofia}/>
+           <img src={Sofia} alt="Sofia's headshot"/>
         </div>
     )
 }
