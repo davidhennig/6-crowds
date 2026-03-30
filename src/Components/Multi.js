@@ -14,7 +14,7 @@ function Multi(props) {
                     controls
                     src={Wannabe}
                 />
-                <a className="demo" href="https://m.youtube.com/watch?v=veRCGuoorao&pp=0gcJCZoBo7VqN5tD">demo *remove from final version</a>
+                <a className="demo" href="https://www.youtube.com/watch?v=9yGXktR43z8&t=15s">demo *remove from final version</a>
         </div>
         </>
     )
