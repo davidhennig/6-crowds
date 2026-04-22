@@ -85,24 +85,6 @@ function Homepage(props) {
                             , and 
                             <span className="cheers-homepage"> Sistahood </span> 
                             <br/>as always!</p>
-                        <RetroHitCounter
-                            hits={counter+3429}
-                            /* The following are all default values: */
-                            withBorder={true}
-                            withGlow={false}
-                            minLength={5}
-                            size={40}
-                            padding={4}
-                            digitSpacing={3}
-                            segmentThickness={4}
-                            segmentSpacing={0.5}
-                            segmentActiveColor="#76FF03"
-                            segmentInactiveColor="#315324"
-                            backgroundColor="#222222"
-                            borderThickness={7}
-                            glowStrength={0.01}
-                        />
-                        <footer><span>Copyright *Brock Hall 1998</span><span><a href="https://www.vecteezy.com/free-vector/vector">Vector Vectors by Vecteezy</a></span></footer>
                     </div>
                     <div className="right">
                         <Link to="/gallery" className="gallery-homepage">The Gallery</Link>
@@ -110,6 +92,26 @@ function Homepage(props) {
                         <Link to="/multi" className="multimedia-homepage">Multimedia</Link>
                     </div>
                 </div>
+                <div className="counter-wrap">
+                    <RetroHitCounter
+                        hits={counter + 3429}
+                        withBorder={true}
+                        withGlow={false}
+                        minLength={5}
+                        size={40}
+                        padding={4}
+                        digitSpacing={3}
+                        segmentThickness={4}
+                        segmentSpacing={0.5}
+                        segmentActiveColor="#76FF03"
+                        segmentInactiveColor="#315324"
+                        backgroundColor="#222222"
+                        borderThickness={7}
+                        glowStrength={0.01}
+                    />
+                </div>
+                <footer><span>Copyright *Brock Hall 1998</span><span><a href="https://www.vecteezy.com/free-vector/vector">Vector Vectors by Vecteezy</a></span></footer>
+
             </div>
             
         </>
