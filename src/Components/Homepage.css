@@ -99,13 +99,20 @@ html, body, #root {
     font-size: 16px;
     max-width: 420px;
     line-height: 1.4;
-    text-shadow: 0 0 6px rgba(250, 2, 255, 0.4);
+    -webkit-text-stroke: 1px #FA02FF;
+    text-shadow: 0 0 8px #FA02FF;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid #01FF1A;
+    box-shadow: 0 0 10px #01FF1A;
 }
 
 .promo-homepage a {
     color: #FA02FF;
     text-decoration: none;
     text-shadow: 0 0 6px #01FF1A;
+
 }
 
 /* Trailer link */
@@ -285,7 +292,7 @@ a{
     align-items: center;
 }
 .bios-homepage{
-    font-family: 'Bangers', cursive;
+    font-family: 'Impact', cursive;
     margin:auto;
     background-color: #01FF1A;
     color:#FA02FF;
@@ -334,7 +341,7 @@ a{
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: crosshair;
     background: #FA02FF;
     color: #01FF1A;
     text-shadow: 0 0 6px #01FF1A;
@@ -405,7 +412,7 @@ footer{
         margin:0px;
     }  
     .left{
-        font-size: 6px;
+        font-size: 12px;
         justify-content: space-between;
     }
     .shop-homepage{
